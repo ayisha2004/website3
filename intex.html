@@ -1,0 +1,164 @@
+<HTML>
+            <title>College registration form</title>
+            <style>
+                body{
+                    background-image:url(appli.jpg);
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+                h2 {
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-size: 80px;
+                    font-style:italic;
+                    font-weight: bold;
+                    color:black;
+                    text-align: center;
+                }
+                 h3 
+                 {
+                    font-size:xx-large;
+                 }
+                input[type=text],
+                input[type=email],
+                input[type=number]
+                 {
+                    width: 150%;
+                    padding: 6px 12px;
+                    margin: 6px 0;
+                }
+                input[type=submit],
+                input[type=reset] {
+                    width: 100%;
+                    padding: 8px 16px;
+                    margin: 10px 0;
+                }
+            </style>
+        </head>
+        <body>
+            
+            <h2>STUDENT APPLICATION</h2>
+                <table align="center">
+                    <tbody><tr>
+                <td>First Name</td>
+                        <td><input type="text" name="FirstName" maxlength="60">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Last Name</td>
+                        <td><input type="text" name="LastName" maxlength="60">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Father Name</td>
+                        <td><input type="text"  name="Father Name" maxlength="60">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Father Occupation</td>
+                        <td><input type="text"  Name="Father Occupation" maxlength="60">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Email ID</td>
+                        <td><input type="email" name="EmailID" maxlength="100"> </td>
+                    </tr>
+                    <tr>
+                        <td>Mobile Number</td>
+                        <td>
+                            <input type="text" name="MobileNumber" maxlength="10" placeholder="1234567890">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Gender</td>
+                        <td>
+                            <input type="radio" name="Gender" value="Male">
+                            Male
+                            <input type="radio" name="Gender" value="Female">
+                            Female
+                            <input type="radio" name="Other" value="Other">
+                            Other
+                        </td>
+                        </tr>
+                        <tr>
+                        <td> Blood Group</td>
+                        <td>
+                        <select name="Blood Group" id="Blood Group"
+                        <option value="A+">A+</option>
+                        <option value="A-">A-</option>
+                        <option value="B+">B+</option>
+                        <option value="B-">B-</option>
+                        <option value="O+">O+</option>
+                        <option value="O-">O-</option>
+                        <option value="AB+">AB+</option>
+                        <option value="AB-">AB-</option>
+                        </select>
+                        </tr>
+                    <form action="/action_page.php">
+                        <label for="D.O.B">D.O.B</label>
+                        <input type="date" id="D.O.B" name="D.O.B"
+                    </form>
+                        
+                    <tr>
+                        <td>Address<br><br><br></td>
+                        <td><textarea name="Address" rows="10" cols="50"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td>City</td>
+                        <td><input type="text" name="City" maxlength="50">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Pin Code</td>
+                        <td><input type="Number" name="PinCode" maxlength="60">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>State</td>
+                        <td><input type="text" name="State" maxlength="50" placeholder="Tamilnadu">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Country</td>
+                        <td><input type="text" name="Country"></td>
+                    </tr>
+                    <tr>
+                        <td>Qualification <br><br><br></td>
+                        <td>
+                            <br>
+                            <input type="checkbox" name="HighSchool" value="High School">
+                            High School(10th)<br>
+                            <input type="checkbox" name="HigherSchool" value="Higher School">
+                            Higher School(12th)<br>
+                            
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Courses<br>Applied For</td>
+                        <td>
+                            <input type="radio" name="CourseBCA" value="BCA">
+                            BCA(Bachelor of Computer Applications)<br>
+                            <input type="radio" name="CourseBCom" value="B.Com">
+                            B.Com(Bachelor of Commerce)<br>
+                            <input type="radio" name="CourseBSc" value="B.Sc">
+                            B.Sc(Bachelor of Science)<br>
+                            <input type="radio" name="CourseBA" value="B.A">
+                            BA(Bachelor of Arts)<br>
+                            <input type="radio" name="CourseMCA" value="BCA">
+                            MCA(Master of Computer Applications)<br>
+                            <input type="radio" name="CourseMCom" value="B.Com">
+                            M.Com(Master of Commerce)<br>
+                            <input type="radio" name="CourseMSc" value="B.Sc">
+                            M.Sc(Master of Science)<br>
+                            <input type="radio" name="CourseMA" value="B.A">
+                            MA(Master of Arts)<br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" align="center">
+                            <input type="submit" value="Submit">
+                            <input type="reset" value="Reset">
+                        </td>
+                    </tr>
+                </tbody></table>
+
+    
